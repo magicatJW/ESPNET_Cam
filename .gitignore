@@ -1,12 +1,16 @@
-# Arduino build folders
+# Arduino build directories
 build/
 *.log
 
-# VSCode and others
+# VSCode
 .vscode/
+*.code-workspace
+
+# Backup / temp
 *.tmp
 *.bak
+*.swp
 
-# OS crap
+# OS files
 .DS_Store
 Thumbs.db
