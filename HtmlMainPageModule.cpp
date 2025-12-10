@@ -46,15 +46,16 @@ const char Html_Main_Page_Text_Value[] = R"rawliteral(
   <div class="control-bar">
     <span class="label">Resolution:</span>
     <select id="ResSelect" onchange="changeRes()">
-      <option value="qqvga">QQVGA</option>
-      <option value="qvga" selected>QVGA</option>
-      <option value="hvga">HVGA</option>
-      <option value="vga">VGA</option>
-      <option value="svga">SVGA</option>
-      <option value="xga">XGA</option>
-      <option value="sxga">SXGA</option>
-      <option value="uxga">UXGA</option>
-    </select>
+  <option value="qqvga">QQVGA 160x120</option>
+  <option value="qvga" selected>QVGA 320x240</option>
+  <option value="hvga">HVGA 480x320</option>
+  <option value="vga">VGA 640x480</option>
+  <option value="svga">SVGA 800x600</option>
+  <option value="xga">XGA 1024x768</option>
+  <option value="sxga">SXGA 1280x1024</option>
+  <option value="uxga">UXGA 1600x1200</option>
+</select>
+
   </div>
 
   <div class="control-bar">
