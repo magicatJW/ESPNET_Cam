@@ -1,8 +1,3 @@
-// ------------------------------------------------------
-// HtmlApSetupModule.cpp
-// AP 初次設定頁面 HTML 內容
-// ------------------------------------------------------
-
 #include "HtmlApSetupModule.h"
 
 const char Html_ApSetup_Page_Text_Value[] = R"rawliteral(
@@ -34,9 +29,7 @@ const char Html_ApSetup_Page_Text_Value[] = R"rawliteral(
       color:#eee;
       cursor:pointer;
     }
-    button:hover {
-      background:#333;
-    }
+    button:hover { background:#333; }
     .box {
       margin-top:40px;
       display:inline-block;
